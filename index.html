@@ -106,9 +106,11 @@ function typewriter()
 }
 typewriter();
     </script>
+        
+    <div style="width: 100%; bottom: 0; position: absolute; margin-bottom: 600px; text-align: center"><marquee><button type="button" style="font-size: 32px; border-radius: 8px"><a href="message.html" style="text-decoration:none">Click to make your own greetings!</a></button></marquee></div>
     
-    
-    <div id="typedtext1" style="margin: 10px; bottom: 0; position: absolute; margin-bottom: 250px; align-content: center"></div>
+    <div id="typedtext1" style="margin: 10px; bottom: 0; position: absolute; margin-bottom: 250px; align-content: center">
+    </div>
     <script>
     // set up text to print, each item in array is new line
 var aText1 = new Array(
@@ -116,7 +118,7 @@ var aText1 = new Array(
 );
 var iSpeed1 = 100; // time delay of print out
 var iIndex1 = 0; // start printing array at this posision
-var iArrLength1 = aText[0].length; // the length of the text array
+var iArrLength1 = aText1[0].length; // the length of the text array
 var iScrollAt1 = 20; // start scrolling up at this many lines
  
 var iTextPos1 = 0; // initialise text position
