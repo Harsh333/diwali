@@ -136,7 +136,7 @@ Diwali Greetings
                     </form>
                 </div>
                 <div style="position: relative;" id="div2">
-                    <form method="post" action="whatsapp://send?text=diwaligreetings.tk/index.php?name=name" data-action="share/whatsapp/share ">
+                    <form method="post" action="whatsapp://send?text=diwaligreetings.tk/index.php?name" data-action="share/whatsapp/share ">
                         <input type="text" name="name" placeholder="Enter your name">
                         <input type="submit" value="share on whatsapp">
                     </form>
