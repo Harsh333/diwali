@@ -145,7 +145,7 @@ function Particle( x, y ) {
 	this.angle = random( 0, Math.PI * 2 );
 	this.speed = random( 1, 10 );
 	// friction will slow the particle down
-	this.friction = 0.99	;
+	this.friction = 1;
 	// gravity will be applied and pull the particle down
 	this.gravity = 1;
 	// set the hue to a random number +-20 of the overall hue variable
@@ -190,7 +190,7 @@ Particle.prototype.draw = function() {
 // create particle group/explosion
 function createParticles( x, y ) {
 	// increase the particle count for a bigger explosion, beware of the canvas performance hit with the increased particles though
-	var particleCount = 200;
+	var particleCount = 100;
 	while( particleCount-- ) {
 		particles.push( new Particle( x, y ) );
 	}
