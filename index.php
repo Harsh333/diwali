@@ -117,21 +117,30 @@ Diwali Greetings
                     Wishing you a very<br>
                     HAPPY DEEPAWALI<br>
                      in advance from<br>
-                     me
+                     <?php if(isset($_POST['name']))            
+                            {        
+                                echo $_POST['name'];
+                            }
+                            else
+                            {
+                                echo "me";
+                            } ?>
                 </div>
             </td>
         </tr>
         <tr>
             <td>
+<!--
                 <div style="position: relative" id="div1">
-                    <form method="post" style="text-align: center">
+                    <form method="post" action="http://127.0.0.1/diwali/index.php" style="text-align: center">
                         <input type="button" name="button" value="Your Name">
                     </form>
                 </div>
-                <div style="position: relative" id="div2">
-                    <form method="post">
+-->
+                <div style="position: relative; text-align: center;" id="div2">
+                    <form method="post" action="whatsapp://send?text=👉 diwaligreetings.tk/index.php?name=<?php $_POST['name']?> %0Aऊपर दी गयी ब्लू लाइन को टच करके देखा क्या?">
                         <input type="text" name="name" placeholder="Enter your name">
-                        <input type="submit"
+                        <input type="submit" value="share on whatsapp">
                     </form>
                 </div>
             </td>
