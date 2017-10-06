@@ -25,7 +25,7 @@ var canvas = document.getElementById( 'canvas' ),
 		limiterTotal = 5,
 		limiterTick = 0,
 		// this will time the auto launches of fireworks, one launch per 80 loop ticks
-		timerTotal = 20,
+		timerTotal = 50,
 		timerTick = 0,
 		mousedown = false,
         touchstart = false,
@@ -189,7 +189,7 @@ Particle.prototype.draw = function() {
 // create particle group/explosion
 function createParticles( x, y ) {
 	// increase the particle count for a bigger explosion, beware of the canvas performance hit with the increased particles though
-	var particleCount = 100;
+	var particleCount = 200;
 	while( particleCount-- ) {
 		particles.push( new Particle( x, y ) );
 	}
