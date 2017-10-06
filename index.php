@@ -145,7 +145,7 @@ Diwali Greetings
                 <div style="position: relative; " id="div2">
                     <form method="get" data-action="share/whatsapp/share">
                         <input type="text" name="name" style="height:50px" placeholder="Enter your name">
-                        <button type="submit" style="height:50px" value="share on whatsapp"><a href="whatsapp://send?text=diwaligreetings.tk/index.php?name=<?php echo $_GET['name']?>"></a></button>
+                        <button type="submit" style="height:50px" formaction="whatsapp://send?text=diwaligreetings.tk/index.php?name=<?php echo $_GET['name']?>">Share on Whatsapp</button>
                         
                     </form>
                 </div>
