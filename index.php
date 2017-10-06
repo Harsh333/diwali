@@ -143,7 +143,7 @@ Diwali Greetings
         <tr>
             <td>
                 <div style="position: relative; " id="div2">
-                    <form method="get" action="whatsapp://send?text=diwaligreetings.tk/index.php" data-action="share/whatsapp/share">
+                    <form method="get" action="diwaligreetings.tk/index.php" >
                         <input type="text" name="name" style="height:50px" placeholder="Enter your name">
                         <button type="submit" style="height:50px">Share on Whatsapp</button>
                         
