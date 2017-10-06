@@ -259,7 +259,9 @@ canvas.addEventListener( 'mousemove', function( e ) {
 });
 
  canvas.addEventListener('touchstart', function(e){
-        
+        var touchobj = e.changedTouches[0]; // reference first touch point (ie: first finger)
+        mx = parseInt(touchobj.clientX); // get x position of touch point relative to left edge of browser
+        my = parseInt(touchobj.clientY);
         e.preventDefault();
 		touchstart = true;
     }, false);
