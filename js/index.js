@@ -258,10 +258,24 @@ canvas.addEventListener( 'mousemove', function( e ) {
 	my = e.pageY - canvas.offsetTop;
 });
 
-canvas.addEventListener('touchstart',function(e){
-		e.preventDefault();
-    touchstart = true;
-})
+ canvas.addEventListener('touchstart', function(e){
+        
+        e.preventDefault();
+		touchstart = true;
+    }, false);
+ canvas.addEventListener('touchend', function(e){
+        
+        e.preventDefault();
+		touchstart = false;
+    }, false);
+canvas.addEventListener('touchmove', function(e){
+        var touchobj = e.changedTouches[0]; // reference first touch point (ie: first finger)
+        mx = parseInt(touchobj.clientX); // get x position of touch point relative to left edge of browser
+        my = parseInt(touchobj.clientY);
+		
+        e.preventDefault()
+    }, false);	
+
 // toggle mousedown state and prevent canvas from being selected
 canvas.addEventListener( 'mousedown', function( e ) {
 	e.preventDefault();
