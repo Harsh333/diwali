@@ -118,9 +118,9 @@ Diwali Greetings
                     Wishing you a very<br>
                     HAPPY DEEPAWALI<br>
                      in advance from<br>
-                     <?php if(isset($_POST['name']))            
+                     <?php if(isset($_GET['name']))            
                             {        
-                                echo $_POST['name'];
+                                echo $_GET['name'];
                             }
                             else
                             {
@@ -143,9 +143,10 @@ Diwali Greetings
         <tr>
             <td>
                 <div style="position: relative; " id="div2">
-                    <form method="post" action="whatsapp://send?text=diwaligreetings.tk/index.php?name=<?php echo $_POST['name']?>" data-action="share/whatsapp/share">
-                        <input type="text" name="name" style="height=50px" placeholder="Enter your name">
-                        <input type="submit" style="height=500px" value="share on whatsapp">
+                    <form method="get" data-action="share/whatsapp/share">
+                        <input type="text" name="name" style="height:50px" placeholder="Enter your name">
+                        <button type="submit" style="height:50px" value="share on whatsapp"><a href="whatsapp://send?text=diwaligreetings.tk/index.php?name=<?php echo $_GET['name']?>"></a></button>
+                        
                     </form>
                 </div>
             </td>
