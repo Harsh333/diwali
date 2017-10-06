@@ -25,9 +25,10 @@ var canvas = document.getElementById( 'canvas' ),
 		limiterTotal = 5,
 		limiterTick = 0,
 		// this will time the auto launches of fireworks, one launch per 80 loop ticks
-		timerTotal = 80,
+		timerTotal = 20,
 		timerTick = 0,
 		mousedown = false,
+        touchstart = false,
 		// mouse x coordinate,
 		mx,
 		// mouse y coordinate
@@ -240,7 +241,7 @@ function loop() {
 	
 	// limit the rate at which fireworks get launched when mouse is down
 	if( limiterTick >= limiterTotal ) {
-		if( mousedown ) {
+		if( mousedown || touchstart) {
 			// start the firework at the bottom middle of the screen, then set the current mouse coordinates as the target
 			fireworks.push( new Firework( cw / 2, ch, mx, my ) );
 			limiterTick = 0;
@@ -257,6 +258,10 @@ canvas.addEventListener( 'mousemove', function( e ) {
 	my = e.pageY - canvas.offsetTop;
 });
 
+canvas.addEventListener('touchstart',function(e){
+		e.preventDefault();
+    touchstart = true;
+})
 // toggle mousedown state and prevent canvas from being selected
 canvas.addEventListener( 'mousedown', function( e ) {
 	e.preventDefault();
