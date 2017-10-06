@@ -135,9 +135,9 @@ Diwali Greetings
                     <form method="post" action="http://127.0.0.1/diwali/index.php" style="text-align: center">
                         <input type="button" name="button" value="Your Name">
                     </form>
-                </div>
+                </div>s
 -->
-                <div style="position: relative; text-align: center;" id="div2">
+                <div style="position: relative;" id="div2">
                     <form method="post" action="whatsapp://send?text=👉 diwaligreetings.tk/index.php?name=<?php $_POST['name']?> %0Aऊपर दी गयी ब्लू लाइन को टच करके देखा क्या?">
                         <input type="text" name="name" placeholder="Enter your name">
                         <input type="submit" value="share on whatsapp">
