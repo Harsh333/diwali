@@ -76,9 +76,9 @@ function Firework( sx, sy, tx, ty ) {
 	this.angle = Math.atan2( ty - sy, tx - sx );
 	this.speed = 2;
 	this.acceleration = 1.05;
-	this.brightness = random( 50, 70 );
+	this.brightness = random( 50, 90 );
 	// circle target indicator radius
-	this.targetRadius = 1;
+	this.targetRadius = 3;
 }
 
 // update firework
@@ -89,10 +89,10 @@ Firework.prototype.update = function( index ) {
 	this.coordinates.unshift( [ this.x, this.y ] );
 	
 	// cycle the circle target indicator radius
-	if( this.targetRadius < 8 ) {
-		this.targetRadius += 0.3;
+	if( this.targetRadius < 24 ) {
+		this.targetRadius += 0.9;
 	} else {
-		this.targetRadius = 1;
+		this.targetRadius = 3;
 	}
 	
 	// speed up the firework
@@ -189,7 +189,7 @@ Particle.prototype.draw = function() {
 // create particle group/explosion
 function createParticles( x, y ) {
 	// increase the particle count for a bigger explosion, beware of the canvas performance hit with the increased particles though
-	var particleCount = 30;
+	var particleCount = 100;
 	while( particleCount-- ) {
 		particles.push( new Particle( x, y ) );
 	}
