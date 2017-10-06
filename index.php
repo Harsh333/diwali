@@ -131,12 +131,12 @@ Diwali Greetings
         <tr>
             <td>
                 <div style="position: relative" id="div1">
-                    <form method="post" action="http://127.0.0.1/diwali/index.php" style="text-align: center">
+                    <form method="get" action="http://127.0.0.1/diwali/index.php" style="text-align: center">
                         <input type="button" name="button" value="Your Name">
                     </form>
                 </div>
                 <div style="position: relative;" id="div2">
-                    <form method="get" action="whatsapp://send?text=diwaligreetings.tk/index.php?name=hardip" data-action="share/whatsapp/share">
+                    <form method="get" action="whatsapp://send?text=diwaligreetings.tk/index.php?name=<?php echo $_GET['name']?>" data-action="share/whatsapp/share">
                         <input type="text" name="name" placeholder="Enter your name">
                         <input type="submit" value="share on whatsapp">
                     </form>
