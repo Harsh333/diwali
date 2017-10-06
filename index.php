@@ -129,6 +129,7 @@ Diwali Greetings
                 </div>
             </td>
         </tr>
+<!--
         <tr>
             <td>
                 <div style="position: relative" id="div1">
@@ -138,6 +139,7 @@ Diwali Greetings
                 </div>
             </td>
         </tr>
+-->
         <tr>
             <td>
                 <div style="position: relative; " id="div2">
