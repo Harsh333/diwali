@@ -1,6 +1,5 @@
 <html>
 <head>
-    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 
     <!-- Global Site Tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107492937-1"></script>
@@ -137,14 +136,17 @@ Diwali Greetings
                         <input type="button" name="button" value="Your Name">
                     </form>
                 </div>
-                <div style="position: relative;" id="div2">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div style="position: relative; " id="div2">
                     <form method="get" action="whatsapp://send?text=diwaligreetings.tk/index.php?name=<?php echo $_GET['name']?>" data-action="share/whatsapp/share">
-                        <input type="text" name="name" placeholder="Enter your name">
-                        <input type="submit" value="share on whatsapp">
+                        <input type="text" name="name" style="height=50px" placeholder="Enter your name">
+                        <input type="submit" style="height=500px" value="share on whatsapp">
                     </form>
                 </div>
             </td>
-            
         </tr>
     </table>
     
