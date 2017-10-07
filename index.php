@@ -129,32 +129,38 @@ Diwali Greetings
                 </div>
             </td>
         </tr>
-<!--
+
         <tr>
             <td>
-                <div style="position: relative" id="div1">
-                    <form method="get" action="http://127.0.0.1/diwali/index.php" style="text-align: center">
-                        <input type="button" name="button" value="Your Name">
-                    </form>
+                <div style="position: relative;visibility: visible;" id="div1">
+                    <button onclick="showdiv2()">Your name</button>
                 </div>
-            </td>
-        </tr>
--->
-        <tr>
-            <td>
-                <div style="position: relative; " id="div2">
+            
+                <div style="position: relative;visibility: hidden; " id="div2">
                     <form method="get" action="" >
                         <input type="text" name="name" style="height:50px" placeholder="Enter your name">
-                        <button type="submit" style="height:50px">Create</button>
+                        <button type="submit" style="height:50px" onclick="showdiv3()">Create</button>
                     </form>
-                    <a href="whatsapp://send?text=diwaligreetings.tk/?name=<?php echo $_GET['name']?>">Share</a>
+                    
                 </div>
+				<div id="div3" style="visibility: visible">
+					<a href="whatsapp://send?text=diwaligreetings.tk/?name=<?php echo $_GET['name']?>">Share</a>
+				</div>
             </td>
         </tr>
     </table>
     
             
-    
+    <script>
+		function showdiv2(){
+			document.getElementById("div1").style.visibility='hidden';
+			document.getElementById("div2").style.visibility='visible';
+		}
+		function showdiv3(){
+			document.getElementById("div2").style.visibility='hidden';
+			document.getElementById("div3").style.visibility='visible';
+		}
+	</script>
     
     
     <!--Touch fireworks-->
