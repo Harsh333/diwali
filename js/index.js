@@ -319,7 +319,9 @@ function makeShort(longUrl)
 		}
 	
     });
-	document.getElementById("mylink").setAttribute("href","whatsapp://send?text="+str);
+	temp = "whatsapp://send?text=" + str;
+	alert(temp);
+	document.getElementById("mylink").setAttribute("href",temp);
 	//return str;
  }
 
