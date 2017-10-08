@@ -200,13 +200,6 @@ Diwali Greetings
 						</button>
                     </form>
                 </div>
-                
-                <?php if(isset($_GET['n']))
-                    {
-                        echo '<script type="text/javascript">',
-                             'myFunction();',
-                             '</script>';
-                    }?>
 				
             </td>
         </tr>
