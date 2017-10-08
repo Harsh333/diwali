@@ -18,12 +18,15 @@ function makeShort()
 		
 		if(response.id != null)
 		{
-			str ="<b>Long URL:</b>"+longUrl+"<br>";
-			str +="<b>Short URL:</b> <a href='"+response.id+"'>"+response.id+"</a><br>";
-			document.getElementById("output").innerHTML = str;
+			str = response.id;
+			alert(str);
+			//str ="<b>Long URL:</b>"+longUrl+"<br>";
+			//str +="<b>Short URL:</b> <a href='"+response.id+"'>"+response.id+"</a><br>";
+			//document.getElementById("output").innerHTML = str;
 		}
 		else
 		{
+			str = longUrl;
 			alert("error: creating short url");
 		}
 	
