@@ -290,10 +290,10 @@ canvas.addEventListener( 'mouseup', function( e ) {
 	mousedown = false;
 });
 
-
+var str;
 function makeShort(longUrl) 
 {
-	var str;
+	
 	var request = gapi.client.urlshortener.url.insert({
     'resource': {
       'longUrl': longUrl
@@ -317,7 +317,7 @@ function makeShort(longUrl)
 		}
 	
     });
-	return str;
+	//return str;
  }
 
 function load()
