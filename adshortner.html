@@ -1,0 +1,53 @@
+<html>
+<head>
+</head>
+<script type="text/javascript">
+    
+
+function makeShort() 
+{
+   var longUrl=document.getElementById("longurl").value;
+    var request = gapi.client.urlshortener.url.insert({
+    'resource': {
+      'longUrl': longUrl
+	}
+    });
+    request.execute(function(response) 
+	{
+		
+		if(response.id != null)
+		{
+			str ="<b>Long URL:</b>"+longUrl+"<br>";
+			str +="<b>Short URL:</b> <a href='"+response.id+"'>"+response.id+"</a><br>";
+			document.getElementById("output").innerHTML = str;
+		}
+		else
+		{
+			alert("error: creating short url");
+		}
+	
+    });
+ }
+
+function load()
+{
+	gapi.client.setApiKey('AIzaSyDRnpKnZQiM0igaLOUKthxK1ublSSAJ0QI'); //get your ownn Browser API KEY
+	gapi.client.load('urlshortener', 'v1',function(){});
+
+}
+window.onload = load;
+
+</script>
+<script src="https://apis.google.com/js/client.js"> </script>
+
+<body>
+
+URL: <input type="text" id="longurl" name="url" /> <br/>
+<input type="button" value="Create Short" onclick="makeShort();" /> <br/> <br/>
+
+<div id="output"></div>
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=tf_til&ad_type=product_link&tracking_id=hardipraj07-21&marketplace=amazon&region=IN&placement=B075P7BLV5&asins=B075P7BLV5&linkId=34970c8cbc84439dc8426ac3d2cba6c5&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
+    </iframe>
+
+</body>
+</html>
