@@ -118,9 +118,9 @@ Diwali Greetings
                     Wishing you a very<br>
                     HAPPY DEEPAWALI<br>
                      in advance from<br>
-                     <?php if(isset($_GET['name']))            
+                     <?php if(isset($_GET['n']))            
                             {        
-                                echo $_GET['name'];
+                                echo $_GET['n'];
                             }
                             else
                             {
@@ -144,19 +144,18 @@ Diwali Greetings
             <td>
                 <div style="position: relative; text-align: center;" id="div2">
                     <form method="get">
-                        <input type="text" name="name" style="height:50px; border: 4px solid #2D6525; border-radius: 5px; font-size:25px; font-weight:bold;" placeholder="Enter your name">
+                        <input type="text" name="n" style="height:50px; border: 4px solid #2D6525; border-radius: 5px; font-size:25px; font-weight:bold;" placeholder="Enter your name">
                         <button type="submit" id="button1" style="height: 50px; background-color: #4CAF50; color: white; border-style: solid; border-width: 5px; border-radius: 10px; border-color: #2D6525; font-size:25px; font-weight:bold;">Create</button>
                     </form>
                 </div>
                 <div style="position: relative; text-align: center; width:100%;" id="div3">
                     <form method="get" action="" >
-                        <button type="submit" style="height: 50px; widht: 100%; background-color: #4CAF50; color: white; border-style: solid; border-width: 5px; border-radius: 10px; border-color: #2D6525; font-size:25px; font-weight:bold;"><a href="whatsapp://send?text=diwaligreetings.tk/?name=<?php echo $_GET['name']?>" style="text-decoration: none; color: white;">Share on Whatsapp</a></button>
+                        <button type="submit" style="height: 50px; widht: 100%; background-color: #4CAF50; color: white; border-style: solid; border-width: 5px; border-radius: 10px; border-color: #2D6525; font-size:25px; font-weight:bold;"><a href="whatsapp://send?text=diwaligreetings.tk/?name=<?php echo $_GET['n']?>" style="text-decoration: none; color: white;">Share on Whatsapp</a></button>
                     </form>
                 </div>
                 <script>
                     var x= document.getElementById("div3");
                     var y= document.getElementById("div2");
-                    x.style.display = 'none';
                     function myFunction() {
                             x.style.display = 'block';
                             y.style.display = 'none';
