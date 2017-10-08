@@ -176,6 +176,8 @@ Diwali Greetings
     </iframe>
 	<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=tf_til&ad_type=product_link&tracking_id=hardipraj0f-21&marketplace=amazon&region=IN&placement=B06Y63B51W&asins=B06Y63B51W&linkId=0ec598c297e7c438c3ee4c5edb7f8775&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
     </iframe>
+	<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=tf_til&ad_type=product_link&tracking_id=hardipraj0f-21&marketplace=amazon&region=IN&placement=B06ZXSRSZ4&asins=B06ZXSRSZ4&linkId=2edb0cd0ad1d34aa3bbc67762f54cb22&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
+    </iframe>
 		</div>
 		</tr>
         <tr>
