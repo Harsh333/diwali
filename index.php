@@ -112,7 +112,7 @@ Diwali Greetings
     
     <!-- Automatic Fireworks Ends-->
     <table style="margin-top: auto; margin-bottom: auto; width:100%; height: 100%;">
-        <tr style="height: 90%">
+        <tr>
             <td>
                 <div class="lasvegas">
                     Wishing you a very<br>
@@ -142,18 +142,36 @@ Diwali Greetings
 -->
         <tr>
             <td>
-                <div style="position: relative; " id="div2">
-                    <form method="get" action="" >
-                        <input type="text" name="name" style="height:50px" placeholder="Enter your name">
-                        <button type="submit" style="height:50px">Create</button>
+                <div style="position: relative; text-align: center;" id="div2">
+                    <form method="get">
+                        <input type="text" name="name" style="height:50px; border: 4px solid #2D6525; border-radius: 5px; font-size:25px; font-weight:bold;" placeholder="Enter your name">
+                        <button type="submit" id="button1" style="height: 50px; background-color: #4CAF50; color: white; border-style: solid; border-width: 5px; border-radius: 10px; border-color: #2D6525; font-size:25px; font-weight:bold;">Create</button>
                     </form>
-                    <a href="whatsapp://send?text=diwaligreetings.tk/?name=<?php echo $_GET['name']?>">Share</a>
                 </div>
+                <div style="position: relative; text-align: center; width:100%;" id="div3">
+                    <form method="get" action="whatsapp://send?text=diwaligreetings.tk/?name=<?php echo $_GET['name']?>" >
+                        <button type="submit" style="height: 50px; widht: 100%; background-color: #4CAF50; color: white; border-style: solid; border-width: 5px; border-radius: 10px; border-color: #2D6525; font-size:25px; font-weight:bold;">Share on Whatsapp</button>
+                    </form>
+                </div>
+                <script>
+                    var x= document.getElementById("div3");
+                    var y= document.getElementById("div2");
+                    x.style.display = 'none';
+                    function myFunction() {
+                            x.style.display = 'block';
+                            y.style.display = 'none';
+                    }
+                </script>
+                <?php if(isset($_GET['name']))
+                    {
+                        echo '<script type="text/javascript">',
+                             'myFunction();',
+                             '</script>';
+                    }?>
             </td>
         </tr>
     </table>
     
-            
     
     
     
