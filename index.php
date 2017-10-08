@@ -29,7 +29,7 @@
 
 function makeShort(longUrl) 
 {
-    console.log(longUrl);
+    alert(longUrl);
     var request = gapi.client.urlshortener.url.insert({
     'resource': {
       'longUrl': longUrl
@@ -42,12 +42,12 @@ function makeShort(longUrl)
 		{
 			str +=response.id;
             document.getElementById("myLink").innerHTML=str;
-            console.log(str);
+            alert(str);
 			//document.getElementById("output").innerHTML = str;
 		}
 		else
 		{
-			alert("error: creating short url");
+			alert(longUrl);
 		}
 	
     });
