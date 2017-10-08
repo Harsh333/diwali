@@ -4,10 +4,10 @@
 <script type="text/javascript">
     
 
-function makeShort() 
+function makeShort(var longUrl) 
 {
    //var longUrl=document.getElementById("longurl").value;
-    var longUrl = 'http://diwaligreetings.tk';
+    //var longUrl = 'http://diwaligreetings.tk';
 	var request = gapi.client.urlshortener.url.insert({
     'resource': {
       'longUrl': longUrl
@@ -49,7 +49,7 @@ window.onload = load;
 URL: <input type="text" id="longurl" name="url" /> <br/>
 <input type="button" value="Create Short" onclick="makeShort();" /> <br/> <br/>
 -->
-<input type="button" value="Create Short" onclick="makeShort();" /> <br/> <br/>
+<input type="button" value="Create Short" onclick="makeShort('http://diwaligreetings.tk');" /> <br/> <br/>
 <div id="output"></div>
 
 <!--
