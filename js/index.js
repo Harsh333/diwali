@@ -305,7 +305,7 @@ function makeShort(longUrl)
 		if(response.id != null)
 		{
 			str = response.id;
-			alert(str);
+			//alert(str);
 			//str ="<b>Long URL:</b>"+longUrl+"<br>";
 			//str +="<b>Short URL:</b> <a href='"+response.id+"'>"+response.id+"</a><br>";
 			//document.getElementById("output").innerHTML = str;
