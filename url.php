@@ -18,7 +18,7 @@
         echo "$error";
         exit;
       }
-	  echo "no error";
+	  echo $json;
       $short_url = $json->short_url;
 	  echo $short_url;
       return "$short_url";
