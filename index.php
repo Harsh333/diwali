@@ -3,7 +3,7 @@
 
 <meta property="og:title" content="Diwali Greetings" />
 <meta property="og:description" content="Celebrate eco friendly diwali with us." />
-<meta property="og:url" content="http://diwaligreetings.ga" />
+<meta property="og:url" content="http://www.diwaligreetings.ga" />
 <meta property="og:image" content="/src/image/diwali.jpg" />
 
 <script src="https://apis.google.com/js/client.js"> </script>
@@ -50,7 +50,7 @@ body{background:#000; overflow: hidden;}
 
 
 .lasvegas span{
-  animation: blink .9s infinite alternate;
+  animation: blink 2s infinite alternate;
 }
 
 .lasvegas span.delay{
@@ -122,10 +122,11 @@ Diwali Greetings
         <tr>
             <td>
                 <div class="lasvegas">
+					
                     Wishing you a very<br>
                     HAPPY DEEPAWALI<br>
                      in advance from<br>
-                     <span style="text-transform:uppercase;">
+                    <span style="text-transform:uppercase;">
 					 <?php if(isset($_GET['n']))            
                             {        
                                 echo $_GET['n'];
@@ -134,7 +135,7 @@ Diwali Greetings
                             {
                                 echo "me";
                             } ?>
-					 </span>
+					 </span> 
                 </div>
             </td>
         </tr>
@@ -153,7 +154,7 @@ Diwali Greetings
                 </div>
                 
 				<div style="position: relative; text-align: center; width:100%; margin-top:1%" id="div3">
-                        <button type="submit" onclick="makeShort('http://diwaligreetings.tk/?n=<?php echo $_GET['n']?>')" style="height: 100px; widht: 100%; background-color: #4CAF50; color: white; border-style: solid; border-width: 5px; border-radius: 10px; border-color: #2D6525; font-size:33px; font-weight:bold;">
+                        <button type="submit" onclick="makeShort('http://diwaligreetings.ga/?n=<?php echo $_GET['n']?>')" style="height: 100px; widht: 100%; background-color: #4CAF50; color: white; border-style: solid; border-width: 5px; border-radius: 10px; border-color: #2D6525; font-size:33px; font-weight:bold;">
 				
 							<a id="mylink" style="text-decoration: none; color: white;">
 								<div><img src="src\images\whatsapp.png" style="float:left;" height="100%"></div>
