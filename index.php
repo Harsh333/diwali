@@ -132,6 +132,13 @@ Diwali Greetings
     <canvas id="canvas" style="position: absolute ">Canvas is not supported in your browser.</canvas>
     <script  src="js/index.js"></script>
     
+	<script type="text/javascript" language="javascript">
+      var aax_size='728x90';
+      var aax_pubname = 'hardipraj0f-21';
+      var aax_src='302';
+    </script>
+    <script type="text/javascript" language="javascript" src="http://c.amazon-adsystem.com/aax2/assoc.js"></script>
+	
     <!-- Automatic Fireworks Ends-->
     <table style="margin-top: auto; margin-bottom: auto; width:100%; height: 100%;">
         <tr>
