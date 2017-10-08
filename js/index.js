@@ -317,7 +317,7 @@ function makeShort(longUrl)
 		}
 	
     });
-	//return str;
+	return str;
  }
 
 function load()
