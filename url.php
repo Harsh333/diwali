@@ -8,8 +8,9 @@
     $ch = curl_init("http://goo.gl/api/url?url=" . urlencode($url));
     curl_setopt($ch, CURLOPT_POST      ,1);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-    if($result = curl_exec($ch))
+	if($result = curl_exec($ch))
     {
+		echo "result";
       $json = json_decode($result);
       if($error = ($json->error_message))
       {
