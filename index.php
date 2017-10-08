@@ -1,10 +1,6 @@
 <html>
 <head>
 
-<meta property="og:title" content="Diwali Greetings" />
-<meta property="og:description" content="Celebrate eco friendly diwali with us." />
-<meta property="og:url" content="http://diwaligreetings.ga" />
-<meta property="og:image" content="http://diwaligreetings.ga/src/image/diwali.jpg" />
 
 <script type="text/javascript">
 function makeShort(longUrl) 
