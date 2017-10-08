@@ -23,6 +23,46 @@
     enable_page_level_ads: true
   });
 </script>
+    
+<script type="text/javascript">
+    
+
+function makeShort(longUrl) 
+{
+
+    var request = gapi.client.urlshortener.url.insert({
+    'resource': {
+      'longUrl': longUrl
+	}
+    });
+    request.execute(function(response) 
+	{
+		
+		if(response.id != null)
+		{
+			str ="<b>Long URL:</b>"+longUrl+"<br>";
+			str +="<b>Short URL:</b> <a href='"+response.id+"'>"+response.id+"</a><br>";
+            document.getElementById("myLink").innerHTML=str;
+			//document.getElementById("output").innerHTML = str;
+		}
+		else
+		{
+			alert("error: creating short url");
+		}
+	
+    });
+ }
+
+function load()
+{
+	gapi.client.setApiKey('AIzaSyAopxtrU4kY9G_r2AmPqyMDrmqPWiDb9DA'); //get your ownn Browser API KEY
+	gapi.client.load('urlshortener', 'v1',function(){});
+
+}
+window.onload = load;
+
+</script>
+<script src="https://apis.google.com/js/client.js"> </script>
     <link href="https://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise" rel="stylesheet" type="text/css"/>
     <style>
       /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
@@ -144,7 +184,7 @@ Diwali Greetings
                 </div>
             
                 <div style="position: relative; text-align: center; display: none;" id="div2">
-                    <form method="get" action="">
+                    <form method="get" action="makeShort(whatsapp://send?text=diwaligreetings.tk/?n=<?php echo $_GET['n']?>)">
                         <input type="text" name="n" style="width: 70%; height:70px; border: 4px solid #2D6525; border-radius: 5px; font-size:25px; font-weight:bold;" placeholder="Enter your name">
                         <button type="submit" id="button1" style="height: 70px; background-color: #4CAF50; color: white; border-style: solid; border-width: 5px; border-radius: 10px; border-color: #2D6525; font-size:25px; font-weight:bold;">Create</button>
                     </form>
@@ -153,7 +193,7 @@ Diwali Greetings
 				<div style="position: relative; text-align: center; width:100%; margin-top:1%" id="div3">
                     <form method="get" action="" >
                         <button type="submit" style="height: 70px; widht: 100%; background-color: #4CAF50; color: white; border-style: solid; border-width: 5px; border-radius: 10px; border-color: #2D6525; font-size:25px; font-weight:bold;">
-							<a href="whatsapp://send?text=diwaligreetings.tk/?n=<?php echo $_GET['n']?>" style="text-decoration: none; color: white;">
+							<a id="mylink" href="diwaligreetings.tk" style="text-decoration: none; color: white;">
 								<div><img src="src\images\whatsapp.png" style="float:left;" height="100%"></div>
 								<div>Share on WhatsApp<div>
 							</a>
