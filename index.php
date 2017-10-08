@@ -142,18 +142,18 @@ Diwali Greetings
         <tr>
             <td>
                 <div style="position: relative; display: block; text-align:center;" id="div1">
-					<button onclick="showdiv2()" type="submit" style="height: 100px; widht: 100%; background-color: #4CAF50; color: white; border-style: solid; border-width: 5px; border-radius: 10px; border-color: #2D6525; font-size:25px; font-weight:bold;">Create greeting with your name</button>
+					<button onclick="showdiv2()" type="submit" style="height: 100px; widht: 100%; background-color: #4CAF50; color: white; border-style: solid; border-width: 5px; border-radius: 10px; border-color: #2D6525; font-size:33px; font-weight:bold;">Create greeting with your name</button>
                 </div>
             
                 <div style="position: relative; text-align: center; display: none;" id="div2">
                     <form method="get" action="">
                         <input type="text" name="n" style="width: 70%; height:100px; border: 4px solid #2D6525; border-radius: 5px; font-size:25px; font-weight:bold;" placeholder="Enter your name">
-                        <button type="submit" id="button1" style="height: 100px; background-color: #4CAF50; color: white; border-style: solid; border-width: 5px; border-radius: 10px; border-color: #2D6525; font-size:25px; font-weight:bold;">Create</button>
+                        <button type="submit" id="button1" style="height: 100px; background-color: #4CAF50; color: white; border-style: solid; border-width: 5px; border-radius: 10px; border-color: #2D6525; font-size:33px; font-weight:bold;">Create</button>
                     </form>
                 </div>
                 
 				<div style="position: relative; text-align: center; width:100%; margin-top:1%" id="div3">
-                        <button type="submit" onclick="makeShort('http://diwaligreetings.tk/?n=<?php echo $_GET['n']?>')" style="height: 70px; widht: 100%; background-color: #4CAF50; color: white; border-style: solid; border-width: 5px; border-radius: 10px; border-color: #2D6525; font-size:25px; font-weight:bold;">
+                        <button type="submit" onclick="makeShort('http://diwaligreetings.tk/?n=<?php echo $_GET['n']?>')" style="height: 100px; widht: 100%; background-color: #4CAF50; color: white; border-style: solid; border-width: 5px; border-radius: 10px; border-color: #2D6525; font-size:33px; font-weight:bold;">
 				
 							<a id="mylink" style="text-decoration: none; color: white;">
 								<div><img src="src\images\whatsapp.png" style="float:left;" height="100%"></div>
