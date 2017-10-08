@@ -7,13 +7,11 @@
 <meta property="og:image" content="http://diwaligreetings.ga/src/image/diwali.jpg" />
 
 <script type="text/javascript">
-    
-var longUrl;
 function makeShort(longUrl) 
 {
-//    longUrl="www.diwaligreetings.ga";
-    alert(longUrl);
-    var request = gapi.client.urlshortener.url.insert({
+   //var longUrl=document.getElementById("longurl").value;
+    //var longUrl = 'http://diwaligreetings.tk';
+	var request = gapi.client.urlshortener.url.insert({
     'resource': {
       'longUrl': longUrl
 	}
@@ -23,14 +21,16 @@ function makeShort(longUrl)
 		
 		if(response.id != null)
 		{
-            str ="<b>Long URL:</b>"+longUrl+"<br>";
-			str +="<b>Short URL:</b> <a href='"+response.id+"'>"+response.id+"</a><br>";
+			str = response.id;
 			alert(str);
-            //document.getElementById("output").innerHTML = str;
+			//str ="<b>Long URL:</b>"+longUrl+"<br>";
+			//str +="<b>Short URL:</b> <a href='"+response.id+"'>"+response.id+"</a><br>";
+			//document.getElementById("output").innerHTML = str;
 		}
 		else
 		{
-			alert(longUrl);
+			str = longUrl;
+			alert("error: creating short url");
 		}
 	
     });
@@ -38,7 +38,7 @@ function makeShort(longUrl)
 
 function load()
 {
-	gapi.client.setApiKey('AIzaSyAopxtrU4kY9G_r2AmPqyMDrmqPWiDb9DA'); //get your ownn Browser API KEY
+	gapi.client.setApiKey('AIzaSyDRnpKnZQiM0igaLOUKthxK1ublSSAJ0QI'); //get your ownn Browser API KEY
 	gapi.client.load('urlshortener', 'v1',function(){});
 
 }
