@@ -39,7 +39,6 @@ function load()
 {
 	gapi.client.setApiKey('AIzaSyDRnpKnZQiM0igaLOUKthxK1ublSSAJ0QI'); //get your ownn Browser API KEY
 	gapi.client.load('urlshortener', 'v1',function(){});
-	loop();
 }
 window.onload = load;
 
