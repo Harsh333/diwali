@@ -19,6 +19,7 @@
         exit;
       }
       $short_url = $json->short_url;
+	  echo $short_url;
       return "$short_url";
     } else
     {
