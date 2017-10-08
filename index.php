@@ -1,7 +1,12 @@
 <html>
 <head>
 
-    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+<meta property="og:title" content="Diwali Greetings" />
+<meta property="og:description" content="Celebrate eco friendly diwali with us." />
+<meta property="og:url" content="http://diwaligreetings.ga" />
+<meta property="og:image" content="http://diwaligreetings.ga/src/image/diwali.jpg" />
+
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107492937-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,12 +48,12 @@ body{background:#000; overflow: hidden;}
 
 
 .lasvegas span{
-  animation: blink .3s infinite alternate;
+  animation: blink .9s infinite alternate;
 }
 
 .lasvegas span.delay{
-  animation-duration:6s;
-  animation-delay: 2s;
+  animation-duration:10s;
+  animation-delay: 10s;
   animation-direction: alternate;
   cubic-bezier(0.5, 0.2, 0.3, 1.0)
 }
@@ -118,7 +123,8 @@ Diwali Greetings
                     Wishing you a very<br>
                     HAPPY DEEPAWALI<br>
                      in advance from<br>
-                     <?php if(isset($_GET['n']))            
+                     <span style="text-transform:uppercase;">
+					 <?php if(isset($_GET['n']))            
                             {        
                                 echo $_GET['n'];
                             }
@@ -126,52 +132,58 @@ Diwali Greetings
                             {
                                 echo "me";
                             } ?>
+					 </span>
                 </div>
             </td>
         </tr>
-<!--
+
         <tr>
             <td>
-                <div style="position: relative" id="div1">
-                    <form method="get" action="http://127.0.0.1/diwali/index.php" style="text-align: center">
-                        <input type="button" name="button" value="Your Name">
+                <div style="position: relative; display: block; text-align:center;" id="div1">
+					<button onclick="showdiv2()" type="submit" style="height: 70px; widht: 100%; background-color: #4CAF50; color: white; border-style: solid; border-width: 5px; border-radius: 10px; border-color: #2D6525; font-size:25px; font-weight:bold;">Create greeting with your name</button>
+                </div>
+            
+                <div style="position: relative; text-align: center; display: none;" id="div2">
+                    <form method="get" action="">
+                        <input type="text" name="n" style="width: 70%; height:70px; border: 4px solid #2D6525; border-radius: 5px; font-size:25px; font-weight:bold;" placeholder="Enter your name">
+                        <button type="submit" id="button1" style="height: 70px; background-color: #4CAF50; color: white; border-style: solid; border-width: 5px; border-radius: 10px; border-color: #2D6525; font-size:25px; font-weight:bold;">Create</button>
                     </form>
                 </div>
-            </td>
-        </tr>
--->
-        <tr>
-            <td>
-                <div style="position: relative; text-align: center;" id="div2">
-                    <form method="get">
-                        <input type="text" name="n" style="height:50px; border: 4px solid #2D6525; border-radius: 5px; font-size:25px; font-weight:bold;" placeholder="Enter your name">
-                        <button type="submit" id="button1" style="height: 50px; background-color: #4CAF50; color: white; border-style: solid; border-width: 5px; border-radius: 10px; border-color: #2D6525; font-size:25px; font-weight:bold;">Create</button>
-                    </form>
-                </div>
-                <div style="position: relative; text-align: center; width:100%;" id="div3">
+                
+				<div style="position: relative; text-align: center; width:100%; margin-top:1%" id="div3">
                     <form method="get" action="" >
-                        <button type="submit" style="height: 50px; widht: 100%; background-color: #4CAF50; color: white; border-style: solid; border-width: 5px; border-radius: 10px; border-color: #2D6525; font-size:25px; font-weight:bold;"><a href="whatsapp://send?text=diwaligreetings.tk/?n=<?php echo $_GET['n']?>" style="text-decoration: none; color: white;">Share on Whatsapp</a></button>
+                        <button type="submit" style="height: 70px; widht: 100%; background-color: #4CAF50; color: white; border-style: solid; border-width: 5px; border-radius: 10px; border-color: #2D6525; font-size:25px; font-weight:bold;">
+							<a href="whatsapp://send?text=diwaligreetings.tk/?n=<?php echo $_GET['n']?>" style="text-decoration: none; color: white;">
+								<div><img src="src\images\whatsapp.png" style="float:left;" height="100%"></div>
+								<div>Share on WhatsApp<div>
+							</a>
+						</button>
                     </form>
                 </div>
-                <script>
-                    var x= document.getElementById("div3");
-                    var y= document.getElementById("div2");
-                    //x.style.display = 'none';
-                    function myFunction() {
-//                              x.style.display = 'block';
-//                              y.style.display = 'none';
-                    }
-                </script>
+                
                 <?php if(isset($_GET['n']))
                     {
                         echo '<script type="text/javascript">',
                              'myFunction();',
                              '</script>';
                     }?>
+				
             </td>
         </tr>
     </table>
-    
+    <script>
+		function showdiv2(){
+			document.getElementById("div1").style.display = 'none';
+			document.getElementById("div2").style.display = 'block';
+		}
+		var x= document.getElementById("div3");
+		var y= document.getElementById("div2");
+		//x.style.display = 'none';
+		function myFunction() {
+//                              x.style.display = 'block';
+//                              y.style.display = 'none';
+		}
+	</script>
     
     
     
