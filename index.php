@@ -149,8 +149,8 @@ Diwali Greetings
                     </form>
                 </div>
                 <div style="position: relative; text-align: center; width:100%;" id="div3">
-                    <form method="get" action="whatsapp://send?text=diwaligreetings.tk/?name=<?php echo $_GET['name']?>" >
-                        <input type="submit" style="height: 50px; widht: 100%; background-color: #4CAF50; color: white; border-style: solid; border-width: 5px; border-radius: 10px; border-color: #2D6525; font-size:25px; font-weight:bold;" value="Share on Whatsapp">
+                    <form method="get" action="" >
+                        <button type="submit" style="height: 50px; widht: 100%; background-color: #4CAF50; color: white; border-style: solid; border-width: 5px; border-radius: 10px; border-color: #2D6525; font-size:25px; font-weight:bold;"><a href="whatsapp://send?text=diwaligreetings.tk/?name=<?php echo $_GET['name']?>" style="text-decoration: none; color: white;">Share on Whatsapp</a></button>
                     </form>
                 </div>
                 <script>
