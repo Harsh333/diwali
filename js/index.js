@@ -294,7 +294,7 @@ canvas.addEventListener( 'mouseup', function( e ) {
 
 function makeShort(longUrl) 
 {
-	str = longUrl;
+	
 	var request = gapi.client.urlshortener.url.insert({
     'resource': {
       'longUrl': longUrl
@@ -310,17 +310,21 @@ function makeShort(longUrl)
 			//str ="<b>Long URL:</b>"+longUrl+"<br>";
 			//str +="<b>Short URL:</b> <a href='"+response.id+"'>"+response.id+"</a><br>";
 			//document.getElementById("output").innerHTML = str;
+			temp = "whatsapp://send?text=" + str;
+			//alert(temp);
+			document.getElementById("mylink").setAttribute("href",temp);
 		}
 		else
 		{
 			str = longUrl;
+			temp = "whatsapp://send?text=" + str;
+			//alert(temp);
+			document.getElementById("mylink").setAttribute("href",temp);
 			//alert("error: creating short url");
 		}
-	
+		
     });
-	temp = "whatsapp://send?text=" + str;
-	//alert(temp);
-	document.getElementById("mylink").setAttribute("href",temp);
+	
 	//return str;
  }
 
