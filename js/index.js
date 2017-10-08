@@ -1,5 +1,7 @@
 // when animating on canvas, it is best to use requestAnimationFrame instead of setTimeout or setInterval
 // not supported in all browsers though and sometimes needs a prefix, so we need a shim
+var str;
+
 window.requestAnimFrame = ( function() {
 	return window.requestAnimationFrame ||
 				window.webkitRequestAnimationFrame ||
@@ -290,7 +292,7 @@ canvas.addEventListener( 'mouseup', function( e ) {
 	mousedown = false;
 });
 
-var str;
+
 function makeShort(longUrl) 
 {
 	
@@ -317,7 +319,8 @@ function makeShort(longUrl)
 		}
 	
     });
-	return str;
+	document.getElementById("mylink").setAttribute("href","whatsapp://send?text="+str);
+	//return str;
  }
 
 function load()
