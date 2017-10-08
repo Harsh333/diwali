@@ -41,8 +41,10 @@ require 'Googl.class.php';
 #
 $googl = new Googl('AIzaSyDRnpKnZQiM0igaLOUKthxK1ublSSAJ0QI');
 println('#1 - Assert that shortening http://www.google.ch results in an URL');
-println($googl->shorten('http://www.google.ch'));
+println($googl->get_short('http://www.google.ch'));
+
 assert_url($googl->shorten('http://www.google.ch'));
+
 println('#2 - Assert that expanding http://goo.gl/KSggQ resolves to http://www.google.com/');
 assert_equals($googl->expand('http://goo.gl/KSggQ'), 'http://www.google.com/');
 println('#3 - Assert that shortening https://www.facebook.com results in an URL');
