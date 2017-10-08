@@ -5,7 +5,7 @@
 <meta property="og:description" content="Celebrate eco friendly diwali with us." />
 <meta property="og:url" content="http://www.diwaligreetings.ga" />
 <meta property="og:image" content="/src/image/diwali.jpg" />
-<link rel="icon" href="/src/image/diwali.jpg" type="image/gif" sizes="16x16">
+<link rel="icon" href="/src/image/diwali.jpg" type="image/jpg" >
 
 <script src="https://apis.google.com/js/client.js"> </script>
     
