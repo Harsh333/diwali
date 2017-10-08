@@ -2,7 +2,7 @@
 <?php
 // uses Google's http://goo.gl/ URL shortener
   /* Enter your url below */
-  $url = "aroundtheweb.info";
+  $url = "http://diwligreetings.tk";
   /* Function to get the short url */
   function get_short_url($url) {
     $ch = curl_init("http://goo.gl/api/url?url=" . urlencode($url));
