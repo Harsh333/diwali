@@ -290,5 +290,43 @@ canvas.addEventListener( 'mouseup', function( e ) {
 	mousedown = false;
 });
 
+
+function makeShort(longUrl) 
+{
+   
+	var request = gapi.client.urlshortener.url.insert({
+    'resource': {
+      'longUrl': longUrl
+	}
+    });
+    request.execute(function(response) 
+	{
+		
+		if(response.id != null)
+		{
+			str = response.id;
+			alert(str);
+			//str ="<b>Long URL:</b>"+longUrl+"<br>";
+			//str +="<b>Short URL:</b> <a href='"+response.id+"'>"+response.id+"</a><br>";
+			//document.getElementById("output").innerHTML = str;
+		}
+		else
+		{
+			str = longUrl;
+			alert("error: creating short url");
+		}
+	
+    });
+ }
+
+function load()
+{
+	gapi.client.setApiKey('AIzaSyDRnpKnZQiM0igaLOUKthxK1ublSSAJ0QI'); //get your ownn Browser API KEY
+	gapi.client.load('urlshortener', 'v1',function(){});
+	loop();
+}
+
+
+
 // once the window loads, we are ready for some fireworks!
-window.onload = loop;
+window.onload = load;
