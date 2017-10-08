@@ -6,44 +6,6 @@
 <meta property="og:url" content="http://diwaligreetings.ga" />
 <meta property="og:image" content="http://diwaligreetings.ga/src/image/diwali.jpg" />
 
-<script type="text/javascript">
-function makeShort(longUrl) 
-{
-   
-	var request = gapi.client.urlshortener.url.insert({
-    'resource': {
-      'longUrl': longUrl
-	}
-    });
-    request.execute(function(response) 
-	{
-		
-		if(response.id != null)
-		{
-			str = response.id;
-			alert(str);
-			//str ="<b>Long URL:</b>"+longUrl+"<br>";
-			//str +="<b>Short URL:</b> <a href='"+response.id+"'>"+response.id+"</a><br>";
-			//document.getElementById("output").innerHTML = str;
-		}
-		else
-		{
-			str = longUrl;
-			alert("error: creating short url");
-		}
-	
-    });
- }
-
-function load()
-{
-	gapi.client.setApiKey('AIzaSyDRnpKnZQiM0igaLOUKthxK1ublSSAJ0QI'); //get your ownn Browser API KEY
-	gapi.client.load('urlshortener', 'v1',function(){});
-
-}
-window.onload = load;
-
-</script>
 <script src="https://apis.google.com/js/client.js"> </script>
     
 <!-- Global Site Tag (gtag.js) - Google Analytics -->
