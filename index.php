@@ -48,6 +48,20 @@ body{background:#000; overflow: hidden;}
     0 0 60px rgba(255,0,0,1);
 }
 
+.lasvegas2 {
+  font-family: 'Pacifico', cursive;
+  font-size:80px;
+  border: none;
+  color: transparent;
+  text-align: center;
+  text-shadow: 
+    0 0 2px rgba(255,255,255,1), 
+    0 0 3px rgba(255,255,255,1), 
+    0 0 5px rgba(255,255,255,1),  
+    0 0 20px rgba(0,0,255,1), 
+    0 0 40px rgba(0,0,255,1),
+    0 0 60px rgba(0,0,255,1);
+}
 
 .lasvegas span{
   animation: blink 2s infinite alternate;
@@ -126,7 +140,7 @@ Diwali Greetings
                     Wishing you a very<br>
                     HAPPY DEEPAWALI<br>
                      in advance from<br>
-                    <span style="text-transform:uppercase;">
+                    <div class="lasvegas2" style="text-transform:uppercase;">
 					 <?php if(isset($_GET['n']))            
                             {        
                                 echo $_GET['n'];
@@ -135,7 +149,7 @@ Diwali Greetings
                             {
                                 echo "me";
                             } ?>
-					 </span> 
+					 </div> 
                 </div>
             </td>
         </tr>
@@ -148,7 +162,7 @@ Diwali Greetings
             
                 <div style="position: relative; text-align: center; display: none;" id="div2">
                     <form method="get" action="">
-                        <input type="text" name="n" style="width: 70%; height:100px; border: 4px solid #2D6525; border-radius: 5px; font-size:25px; font-weight:bold;" placeholder="Enter your name">
+                        <input type="text" name="n" maxlength="12" style="width: 70%; height:100px; border: 4px solid #2D6525; border-radius: 5px; font-size:25px; font-weight:bold;" placeholder="Enter your name" required>
                         <button type="submit" id="button1" style="height: 100px; background-color: #4CAF50; color: white; border-style: solid; border-width: 5px; border-radius: 10px; border-color: #2D6525; font-size:33px; font-weight:bold;">Create</button>
                     </form>
                 </div>
