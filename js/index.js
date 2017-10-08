@@ -310,9 +310,7 @@ function makeShort(longUrl)
 			//str ="<b>Long URL:</b>"+longUrl+"<br>";
 			//str +="<b>Short URL:</b> <a href='"+response.id+"'>"+response.id+"</a><br>";
 			//document.getElementById("output").innerHTML = str;
-			temp = "whatsapp://send?text=" + "Checkout this innovative diwali greetings from me. Click the below given link and enjoy the fireworks by touching at different points on screen. !!
-			🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆
-			" + str;	
+			temp = "whatsapp://send?text=" + "Checkout this innovative diwali greetings from me. Click the below given link and enjoy the fireworks by touching at different points on screen. !!🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆" + str;	
 			//alert(temp);
 			document.getElementById("mylink").setAttribute("href",temp);
 		}
