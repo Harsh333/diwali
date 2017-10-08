@@ -1,6 +1,5 @@
 // when animating on canvas, it is best to use requestAnimationFrame instead of setTimeout or setInterval
 // not supported in all browsers though and sometimes needs a prefix, so we need a shim
-var str;
 
 window.requestAnimFrame = ( function() {
 	return window.requestAnimationFrame ||
@@ -307,7 +306,7 @@ function makeShort(longUrl)
 		if(response.id != null)
 		{
 			str = response.id;
-			//alert(str);
+			alert(str);
 			//str ="<b>Long URL:</b>"+longUrl+"<br>";
 			//str +="<b>Short URL:</b> <a href='"+response.id+"'>"+response.id+"</a><br>";
 			//document.getElementById("output").innerHTML = str;
