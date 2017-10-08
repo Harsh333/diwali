@@ -192,6 +192,7 @@ Diwali Greetings
                 
 				<div style="position: relative; text-align: center; width:100%; margin-top:1%" id="div3">
                         <button type="submit" onclick="makeShort(http://diwaligreetings.tk/?n=<?php echo $_GET['n']?>)" style="height: 70px; widht: 100%; background-color: #4CAF50; color: white; border-style: solid; border-width: 5px; border-radius: 10px; border-color: #2D6525; font-size:25px; font-weight:bold;">
+				<div>Share on WhatsApp</div>
 							<!--a id="mylink" href="whatsapp://send?text=" style="text-decoration: none; color: white;">
 								<div><img src="src\images\whatsapp.png" style="float:left;" height="100%"></div>
                                 <div>Share on WhatsApp</div>
