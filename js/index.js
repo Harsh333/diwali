@@ -311,14 +311,14 @@ function makeShort(longUrl)
 			//str +="<b>Short URL:</b> <a href='"+response.id+"'>"+response.id+"</a><br>";
 			//document.getElementById("output").innerHTML = str;
 			temp = "whatsapp://send?text=" + str;
-			alert(temp);
+			//alert(temp);
 			document.getElementById("mylink").setAttribute("href",temp);
 		}
 		else
 		{
 			str = longUrl;
 			temp = "whatsapp://send?text=" + str;
-			alert(temp);
+			//alert(temp);
 			document.getElementById("mylink").setAttribute("href",temp);
 			//alert("error: creating short url");
 		}
