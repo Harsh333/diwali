@@ -45,6 +45,7 @@ function load()
 window.onload = load;
 
 </script>
+<script src="https://apis.google.com/js/client.js"> </script>
     
 <!-- Global Site Tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107492937-1"></script>
@@ -64,8 +65,6 @@ window.onload = load;
   });
 </script>
     
-
-<script src="https://apis.google.com/js/client.js"> </script>
     <link href="https://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise" rel="stylesheet" type="text/css"/>
     <style>
       /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
