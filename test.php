@@ -151,8 +151,7 @@ Diwali Greetings
 <body style="overflow: hidden">
 
 <!--Automatic Fireworks --> 
-    <canvas id="canvas" style="position: absolute ">Canvas is not supported in your browser.</canvas>
-    <script  src="js/index.js"></script>
+    
     
     <!-- Automatic Fireworks Ends-->
     <table style="margin-top: auto; margin-bottom: auto; width:100%; height: 100%;">
