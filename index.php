@@ -29,7 +29,7 @@
 var longUrl;
 function makeShort(longUrl) 
 {
-    longUrl="www.diwaligreetings.ga";
+//    longUrl="www.diwaligreetings.ga";
     alert(longUrl);
     var request = gapi.client.urlshortener.url.insert({
     'resource': {
@@ -95,7 +95,7 @@ body{background:#000; overflow: hidden;}
   animation-duration:10s;
   animation-delay: 10s;
   animation-direction: alternate;
-  cubic-bezier(0.5, 0.2, 0.3, 1.0)
+  cubic-bezier: (0.5, 0.2, 0.3, 1.0);
 }
 
 
