@@ -26,7 +26,7 @@
     
 <script type="text/javascript">
     
-
+var longUrl;
 function makeShort(longUrl) 
 {
     alert(longUrl);
@@ -40,10 +40,10 @@ function makeShort(longUrl)
 		
 		if(response.id != null)
 		{
-			str +=response.id;
-            document.getElementById("myLink").innerHTML=str;
-            alert(str);
-			//document.getElementById("output").innerHTML = str;
+            str ="<b>Long URL:</b>"+longUrl+"<br>";
+			str +="<b>Short URL:</b> <a href='"+response.id+"'>"+response.id+"</a><br>";
+			alert(str);
+            //document.getElementById("output").innerHTML = str;
 		}
 		else
 		{
