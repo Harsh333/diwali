@@ -150,18 +150,19 @@ Diwali Greetings
                 </div>
                 <div style="position: relative; text-align: center; width:100%;" id="div3">
                     <form method="get" action="" >
-                        <button type="submit" style="height: 50px; widht: 100%; background-color: #4CAF50; color: white; border-style: solid; border-width: 5px; border-radius: 10px; border-color: #2D6525; font-size:25px; font-weight:bold;"><a href="whatsapp://send?text=diwaligreetings.tk/?name=<?php echo $_GET['n']?>" style="text-decoration: none; color: white;">Share on Whatsapp</a></button>
+                        <button type="submit" style="height: 50px; widht: 100%; background-color: #4CAF50; color: white; border-style: solid; border-width: 5px; border-radius: 10px; border-color: #2D6525; font-size:25px; font-weight:bold;"><a href="whatsapp://send?text=diwaligreetings.tk/?n=<?php echo $_GET['n']?>" style="text-decoration: none; color: white;">Share on Whatsapp</a></button>
                     </form>
                 </div>
                 <script>
                     var x= document.getElementById("div3");
                     var y= document.getElementById("div2");
+                    //x.style.display = 'none';
                     function myFunction() {
-                            x.style.display = 'block';
-                            y.style.display = 'none';
+//                              x.style.display = 'block';
+//                              y.style.display = 'none';
                     }
                 </script>
-                <?php if(isset($_GET['name']))
+                <?php if(isset($_GET['n']))
                     {
                         echo '<script type="text/javascript">',
                              'myFunction();',
