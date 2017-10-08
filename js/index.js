@@ -294,7 +294,7 @@ canvas.addEventListener( 'mouseup', function( e ) {
 
 function makeShort(longUrl) 
 {
-	
+	str = longUrl;
 	var request = gapi.client.urlshortener.url.insert({
     'resource': {
       'longUrl': longUrl
