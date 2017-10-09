@@ -126,12 +126,9 @@ body{background:#000;}
 <title>
 Diwali Greetings
 </title>
-        
-<body style="overflow: hidden">
     
     
-    <!-- CUELINKS Script -->
-    
+<!-- CUELINKS Script -->
     <script type='text/javascript'>
     var pubID = '23455CL21105';
 
@@ -141,9 +138,10 @@ Diwali Greetings
     document.getElementsByTagName('body')[0].appendChild(s);
     }());
 </script>
-                
+<!-- CUELINKS Script Ends-->    
+
+<body style="overflow: hidden">
     
-<!-- CUELINKS Script Ends-->
     
     <!--Automatic Fireworks --> 
     <canvas id="canvas" style="position: absolute ">Canvas is not supported in your browser.</canvas>
