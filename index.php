@@ -8,22 +8,6 @@
 <link rel="icon" href="/src/image/diwali.jpg" type="image/jpg" >
 
     
-<!-- CUELINKS Script -->
-    
-    <script type='text/javascript'>
-    var pubID = '23455CL21105';
-
-    (function(d, t) {
-    var s = document.createElement('script');s.type = 'text/javascript';
-    s.async = true;s.src = (document.location.protocol == 'https:' ? 'https://cdn0.cuelinks.com/js/' : 'http://cdn0.cuelinks.com/js/')  + 'cuelinksv1.js';
-    document.getElementsByTagName('body')[0].appendChild(s);
-    }());
-</script>
-                
-    
-<!-- CUELINKS Script Ends-->
-
-    
 <script src="https://apis.google.com/js/client.js"> </script>
     
 <!-- Global Site Tag (gtag.js) - Google Analytics -->
@@ -144,6 +128,22 @@ Diwali Greetings
 </title>
         
 <body style="overflow: hidden">
+    
+    
+    <!-- CUELINKS Script -->
+    
+    <script type='text/javascript'>
+    var pubID = '23455CL21105';
+
+    (function(d, t) {
+    var s = document.createElement('script');s.type = 'text/javascript';
+    s.async = true;s.src = (document.location.protocol == 'https:' ? 'https://cdn0.cuelinks.com/js/' : 'http://cdn0.cuelinks.com/js/')  + 'cuelinksv1.js';
+    document.getElementsByTagName('body')[0].appendChild(s);
+    }());
+</script>
+                
+    
+<!-- CUELINKS Script Ends-->
     
     <!--Automatic Fireworks --> 
     <canvas id="canvas" style="position: absolute ">Canvas is not supported in your browser.</canvas>
