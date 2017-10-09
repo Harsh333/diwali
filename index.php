@@ -192,18 +192,6 @@ Diwali Greetings
         </tr>
     </table>
 -->
-        <div style="position:relative; widht:inherit;" align="center">
-	<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=tf_til&ad_type=product_link&tracking_id=hardipraj0f-21&marketplace=amazon&region=IN&placement=B01MZYMMYI&asins=B01MZYMMYI&linkId=b248b94ae146a9e334952e4e77585664&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
-    </iframe>
-	<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=tf_til&ad_type=product_link&tracking_id=hardipraj0f-21&marketplace=amazon&region=IN&placement=B075P7BLV5&asins=B075P7BLV5&linkId=9d1ad7eaac8c145082bfd3f8838cedbf&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
-    </iframe>
-	<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=tf_til&ad_type=product_link&tracking_id=hardipraj0f-21&marketplace=amazon&region=IN&placement=B01N9J9N6A&asins=B01N9J9N6A&linkId=386787c3cac4d67f967454cd79562fdb&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
-    </iframe>
-	<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=tf_til&ad_type=product_link&tracking_id=hardipraj0f-21&marketplace=amazon&region=IN&placement=B06Y63B51W&asins=B06Y63B51W&linkId=0ec598c297e7c438c3ee4c5edb7f8775&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
-    </iframe>
-	<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=tf_til&ad_type=product_link&tracking_id=hardipraj0f-21&marketplace=amazon&region=IN&placement=B06ZXSRSZ4&asins=B06ZXSRSZ4&linkId=2edb0cd0ad1d34aa3bbc67762f54cb22&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
-    </iframe>
-		</div>
 <!--
 		<tr>
         <td>
@@ -211,6 +199,9 @@ Diwali Greetings
 		</td>
         </tr>
 -->
+        <div style="position:relative; widht:inherit;" align="center">
+                    <iframe width='728' height='90' frameborder='0' scrolling='no' src='https://widget.cuelinks.com/widgets/16323?pub_id=23455CL21105'></iframe>
+                </div>
         
         <div style="position: relative; display: block; text-align:center;" id="div1">
 					<button onclick="showdiv2()" type="submit" style="height: 100px; widht: 100%; background-color: #4CAF50; color: white; border-style: solid; border-width: 5px; border-radius: 10px; border-color: #2D6525; font-size:33px; font-weight:bold;">Create greeting with your name</button>
@@ -233,10 +224,19 @@ Diwali Greetings
 						</button>
                 </div>
 
-    <div style="position:relative; widht:inherit;" align="center">
-                    <iframe width='728' height='90' frameborder='0' scrolling='no' src='https://widget.cuelinks.com/widgets/16323?pub_id=23455CL21105'></iframe>
-                </div>
     
+    <div style="position:relative; widht:inherit;" align="center">
+	<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=tf_til&ad_type=product_link&tracking_id=hardipraj0f-21&marketplace=amazon&region=IN&placement=B01MZYMMYI&asins=B01MZYMMYI&linkId=b248b94ae146a9e334952e4e77585664&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
+    </iframe>
+	<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=tf_til&ad_type=product_link&tracking_id=hardipraj0f-21&marketplace=amazon&region=IN&placement=B075P7BLV5&asins=B075P7BLV5&linkId=9d1ad7eaac8c145082bfd3f8838cedbf&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
+    </iframe>
+	<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=tf_til&ad_type=product_link&tracking_id=hardipraj0f-21&marketplace=amazon&region=IN&placement=B01N9J9N6A&asins=B01N9J9N6A&linkId=386787c3cac4d67f967454cd79562fdb&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
+    </iframe>
+	<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=tf_til&ad_type=product_link&tracking_id=hardipraj0f-21&marketplace=amazon&region=IN&placement=B06Y63B51W&asins=B06Y63B51W&linkId=0ec598c297e7c438c3ee4c5edb7f8775&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
+    </iframe>
+	<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=tf_til&ad_type=product_link&tracking_id=hardipraj0f-21&marketplace=amazon&region=IN&placement=B06ZXSRSZ4&asins=B06ZXSRSZ4&linkId=2edb0cd0ad1d34aa3bbc67762f54cb22&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
+    </iframe>
+		</div>
     <!--
         <tr>
             <td>
