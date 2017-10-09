@@ -163,16 +163,15 @@ Diwali Greetings
                 </div>
 	
     <!-- Automatic Fireworks Ends-->
-    <table style="margin-top: auto; margin-bottom: auto; width:100%; height: 100%;">
-<!--
+<!--    <table style="margin-top: auto; margin-bottom: auto; width:100%; height: 100%;">
         <tr>
             <td>
                 
             </td>
         </tr>
--->
         <tr>
             <td>
+-->
                 <div class="lasvegas">
                     Wishing you a very<br>
                     HAPPY DEEPAWALI<br>
@@ -188,9 +187,11 @@ Diwali Greetings
                             } ?>
 					 </div> 
                 </div>
+<!--
             </td>
         </tr>
-        
+    </table>
+-->
         <div style="position:relative; widht:inherit;" align="center">
 	<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=tf_til&ad_type=product_link&tracking_id=hardipraj0f-21&marketplace=amazon&region=IN&placement=B01MZYMMYI&asins=B01MZYMMYI&linkId=b248b94ae146a9e334952e4e77585664&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
     </iframe>
@@ -238,7 +239,6 @@ Diwali Greetings
             </td>
         </tr>
 -->
-    </table>
     <script>
 		function showdiv2(){
 			document.getElementById("div1").style.display = 'none';
