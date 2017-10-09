@@ -33,7 +33,7 @@
       /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
       @import url('https://fonts.googleapis.com/css?family=Pacifico');
 
-body{background:#000; overflow: hidden;}
+body{background:#000;}
 
 .lasvegas {
   font-family: 'Pacifico', cursive;
