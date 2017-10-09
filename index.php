@@ -158,17 +158,19 @@ Diwali Greetings
     <script type="text/javascript" language="javascript" src="http://c.amazon-adsystem.com/aax2/assoc.js"></script>
 	-->
 	
-	
+	<div style="position:relative; widht:inherit;" align="center">
+                    <iframe width='728' height='90' frameborder='0' scrolling='no' src='https://widget.cuelinks.com/widgets/16321?pub_id=23455CL21105'></iframe>
+                </div>
 	
     <!-- Automatic Fireworks Ends-->
     <table style="margin-top: auto; margin-bottom: auto; width:100%; height: 100%;">
+<!--
         <tr>
             <td>
-                <div style="position:relative; widht:inherit;" align="center">
-                    <iframe width='728' height='90' frameborder='0' scrolling='no' src='https://widget.cuelinks.com/widgets/16321?pub_id=23455CL21105'></iframe>
-                </div>
+                
             </td>
         </tr>
+-->
         <tr>
             <td>
                 <div class="lasvegas">
