@@ -193,7 +193,7 @@ Diwali Greetings
             
                 <div style="position: relative; text-align: center; display: none;" id="div2">
                     <form method="get" action="">
-                        <input type="text" name="n" maxlength="12" style="width: 70%; height:100px; border: 4px solid #2D6525; border-radius: 5px; font-size:25px; font-weight:bold;" placeholder="Enter your name" required>
+                        <input type="text" name="n" maxlength="20" style="width: 70%; height:100px; border: 4px solid #2D6525; border-radius: 5px; font-size:25px; font-weight:bold;" placeholder="Enter your name" required>
                         <button type="submit" id="button1" style="height: 100px; background-color: #4CAF50; color: white; border-style: solid; border-width: 5px; border-radius: 10px; border-color: #2D6525; font-size:33px; font-weight:bold;">Create</button>
                     </form>
                 </div>
