@@ -7,6 +7,23 @@
 <meta property="og:image" content="/src/image/diwali.jpg" />
 <link rel="icon" href="/src/image/diwali.jpg" type="image/jpg" >
 
+    
+<!-- CUELINKS Script -->
+    
+    <script type='text/javascript'>
+    var pubID = '23455CL21105';
+
+    (function(d, t) {
+    var s = document.createElement('script');s.type = 'text/javascript';
+    s.async = true;s.src = (document.location.protocol == 'https:' ? 'https://cdn0.cuelinks.com/js/' : 'http://cdn0.cuelinks.com/js/')  + 'cuelinksv1.js';
+    document.getElementsByTagName('body')[0].appendChild(s);
+    }());
+</script>
+                
+    
+<!-- CUELINKS Script Ends-->
+
+    
 <script src="https://apis.google.com/js/client.js"> </script>
     
 <!-- Global Site Tag (gtag.js) - Google Analytics -->
@@ -146,6 +163,11 @@ Diwali Greetings
     <!-- Automatic Fireworks Ends-->
     <table style="margin-top: auto; margin-bottom: auto; width:100%; height: 100%;">
         <tr>
+		  <div style="position:relative; widht:inherit;" align="center">
+            <iframe width='728' height='90' frameborder='0' scrolling='no' src='https://widget.cuelinks.com/widgets/16321?pub_id=23455CL21105'></iframe>
+            </div>
+        </tr>
+        <tr>
             <td>
                 <div class="lasvegas">
 					
@@ -166,7 +188,6 @@ Diwali Greetings
             </td>
         </tr>
 		<tr>
-		<td>
 		<div style="position:relative; widht:inherit;" align="center">
 	<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=tf_til&ad_type=product_link&tracking_id=hardipraj0f-21&marketplace=amazon&region=IN&placement=B01MZYMMYI&asins=B01MZYMMYI&linkId=b248b94ae146a9e334952e4e77585664&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
     </iframe>
