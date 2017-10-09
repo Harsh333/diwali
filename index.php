@@ -232,7 +232,12 @@ Diwali Greetings
 							</a>
 						</button>
                 </div>
-<!--
+
+    <div style="position:relative; widht:inherit;" align="center">
+                    <iframe width='728' height='90' frameborder='0' scrolling='no' src='https://widget.cuelinks.com/widgets/16323?pub_id=23455CL21105'></iframe>
+                </div>
+    
+    <!--
         <tr>
             <td>
                 
