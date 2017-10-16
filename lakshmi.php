@@ -39,6 +39,9 @@ body{
     background-repeat: no-repeat;
         }
 
+        
+        
+        
 .lasvegas {
   font-family: 'Pacifico', cursive;
   font-size:80px;
@@ -123,10 +126,14 @@ body{
   }
 }
         
+        
+        
+        
     </style>
 
+    
+    
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
-
 </head>
 
 <title>
@@ -155,6 +162,8 @@ Diwali Greetings | DhanTeras | Lakshmi
                 ];
                 document.getElementById("message").innerHTML = msg[Math.floor((Math.random() * 10) + 1)];
                 </script>
+                
+                <div class="lasvegas2" id="money"></div>
 <!--
             </td>
         </tr>
@@ -180,14 +189,14 @@ Diwali Greetings | DhanTeras | Lakshmi
     <br/><br/>
         
         <div style="position: relative; display: block; text-align:center;" id="div1">
-					<button type="submit" style="height: 100px; widht: 100%; background-color: #4CAF50; color: white; border-style: solid; border-width: 5px; border-radius: 10px; border-color: #2D6525; font-size:33px; font-weight:bold;">Money</button>
+					<button type="submit" onclick="generate()" style="height: 100px; widht: 100%; background-color: #4CAF50; color: white; border-style: solid; border-width: 5px; border-radius: 10px; border-color: #2D6525; font-size:33px; font-weight:bold;" id="moneyBtn">Money</button>
                 </div>
 
                                 
 				<div style="position: relative; text-align: center; width:100%; margin-top:1%" id="div3">
                         <button type="submit" style="height: 100px; widht: 100%; background-color: #4CAF50; color: white; border-style: solid; border-width: 5px; border-radius: 10px; border-color: #2D6525; font-size:33px; font-weight:bold;">
 				
-							<a id="mylink2" style="text-decoration: none; color: white;" href="whatsapp://send?text=Is diwali aaie jaane kya hai aapka bhvishya, aap ko kitani lakshmi prapt hogi! https://goo.gl/S77mrV">
+							<a id="mylink2" style="text-decoration: none; color: white;" href="whatsapp://send?text=નીચે આપેલી લિંક પર ક્લિક કરી મની બટન પર ક્લિક કરો અને જુઓ માતા લક્ષ્મી તમારા પર કેટલી ધન વર્ષા કરે છે. https://goo.gl/S77mrV">
 								<div><img src="src\images\whatsapp.png" style="float:left;" height="100%"></div>
                                 <div>Share on WhatsApp</div>
 							</a>
@@ -195,6 +204,26 @@ Diwali Greetings | DhanTeras | Lakshmi
                 </div>
 <br/><br/><br/>
     
+<script>
+function generate(){
+    var x=Math.floor((Math.random() * 10000000) + 1);
+    x=x.toString();
+    var lastThree = x.substring(x.length-3);
+    var otherNumbers = x.substring(0,x.length-3);
+    if(otherNumbers != '')
+        lastThree = ',' + lastThree;
+    var res = otherNumbers.replace(/\B(?=(\d{2})+(?!\d))/g, ",") + lastThree;
+    document.getElementById("money").innerHTML = "આ વર્ષે આપણા જીવનમા ₹"+res+" લક્ષ્મી વર્ષા થશે.";
+    document.getElementById("moneyBtn").style.display = 'none';
+    
+    setTimeout(openUrl, 5000);
+    
+}
+    
+function openUrl(){
+    window.location.href='whatsapp://send?text=Is diwali aaie jaane kya hai aapka bhvishya, aap ko kitani lakshmi prapt hogi! https://goo.gl/S77mrV';
+}
+</script>
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- adunit1 -->
 <ins class="adsbygoogle"
