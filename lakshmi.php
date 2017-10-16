@@ -1,9 +1,9 @@
 <html>
 <head>
 
-<meta property="og:title" content="Diwali Greetings" />
-<meta property="og:description" content="Celebrate eco friendly diwali with us." />
-<meta property="og:url" content="http://www.diwaligreetings.ga" />
+<meta property="og:title" content="Diwali Greetings | DhanTeras | Lakshmi" />
+<meta property="og:description" content="Know your money future" />
+<meta property="og:url" content="http://www.diwaligreetings.ga/lakshmi.php" />
 <meta property="og:image" content="/src/image/diwali.jpg" />
 <link rel="icon" href="/src/image/diwali.jpg" type="image/jpg" >
     
@@ -187,7 +187,7 @@ Diwali Greetings
 				<div style="position: relative; text-align: center; width:100%; margin-top:1%" id="div3">
                         <button type="submit" style="height: 100px; widht: 100%; background-color: #4CAF50; color: white; border-style: solid; border-width: 5px; border-radius: 10px; border-color: #2D6525; font-size:33px; font-weight:bold;">
 				
-							<a id="mylink2" style="text-decoration: none; color: white;" href="whatsapp://send?text=Is diwali aaie jaane kya hai aapka bhvishya, aap ko kitani lakshmi prapt hogi!\n https://goo.gl/S77mrV">
+							<a id="mylink2" style="text-decoration: none; color: white;" href="whatsapp://send?text=Is diwali aaie jaane kya hai aapka bhvishya, aap ko kitani lakshmi prapt hogi! https://goo.gl/S77mrV">
 								<div><img src="src\images\whatsapp.png" style="float:left;" height="100%"></div>
                                 <div>Share on WhatsApp</div>
 							</a>
