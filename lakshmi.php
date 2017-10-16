@@ -195,7 +195,7 @@ Diwali Greetings | DhanTeras | Lakshmi
 				<div style="position: relative; text-align: center; width:100%; margin-top:1%" id="div3">
                         <button type="submit" style="height: 150px; widht: 100%; background-color: #4CAF50; color: white; border-style: solid; border-width: 5px; border-radius: 10px; border-color: #2D6525; font-size:60px; font-weight:bold;">
 				
-							<a id="mylink2" style="text-decoration: none; color: white;" >
+							<a id="mylink2" style="text-decoration: none; color: white;" href="whatsapp://send?text=નીચે આપેલી લિંક પર ક્લિક કરી મની બટન પર ક્લિક કરો અને જુઓ માતા લક્ષ્મી તમારા પર કેટલી ધન વર્ષા કરે છે. https://goo.gl/S77mrV">
 								<div><img src="src\images\whatsapp.png" style="float:left;" height="100%"></div>
                                 <div>Share on WhatsApp</div>
 							</a>
