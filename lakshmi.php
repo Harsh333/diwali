@@ -195,7 +195,7 @@ Diwali Greetings | DhanTeras | Lakshmi
 				<div style="position: relative; text-align: center; width:100%; margin-top:1%" id="div3">
                         <button type="submit" style="height: 150px; widht: 100%; background-color: #4CAF50; color: white; border-style: solid; border-width: 5px; border-radius: 10px; border-color: #2D6525; font-size:60px; font-weight:bold;">
 				
-							<a id="mylink2" style="text-decoration: none; color: white;" href="whatsapp://send?text=નીચે આપેલી લિંક પર ક્લિક કરી મની બટન પર ક્લિક કરો અને જુઓ માતા લક્ષ્મી તમારા પર કેટલી ધન વર્ષા કરે છે. https://goo.gl/S77mrV">
+							<a id="mylink2" style="text-decoration: none; color: white;" >
 								<div><img src="src\images\whatsapp.png" style="float:left;" height="100%"></div>
                                 <div>Share on WhatsApp</div>
 							</a>
@@ -212,18 +212,17 @@ function generate(){
     if(otherNumbers != '')
         lastThree = ',' + lastThree;
     var res = otherNumbers.replace(/\B(?=(\d{2})+(?!\d))/g, ",") + lastThree;
-    window.value=res;
     document.getElementById("money").innerHTML = "આ વર્ષે આપણા જીવનમા ₹"+res+" લક્ષ્મી વર્ષા થશે.";
     document.getElementById("moneyBtn").style.display = 'none';
-    setTimeout(openUrl(), 5000);
-    
+    var str1 = "whatsapp://send?text=મારૂ ભવિષ્ય: ₹";
+    var lin = str1.concat(window.value,"\n શું હસે તમારુ ભવિષ્ય? \n નીચે આપેલી લિંક પર ક્લિક કરી મની બટન પર ક્લિક કરો અને જુઓ માતા લક્ષ્મી તમારા પર કેટલી ધન વર્ષા કરે છે. \nhttps://goo.gl/S77mrV");
+    window.value = lin;    
+    document.getElementById("mylink2").setAttribute("href",lin);
+    setTimeout(openUrl,5000);
 }
     
 function openUrl(){
-    
-    var str1 = "whatsapp://send?text=મારૂ ભવિષ્ય: ₹";
-    var lin = str1.concat(window.value,"\n શું હસે તમારુ ભવિષ્ય? \n નીચે આપેલી લિંક પર ક્લિક કરી મની બટન પર ક્લિક કરો અને જુઓ માતા લક્ષ્મી તમારા પર કેટલી ધન વર્ષા કરે છે. \nhttps://goo.gl/S77mrV");
-    window.open(lin);
+    window.open(window.value);
 }
 </script>
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
