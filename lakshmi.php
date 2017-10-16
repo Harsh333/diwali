@@ -28,7 +28,7 @@
   });
 </script>
     
-    <link href="https://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise" rel="stylesheet" type="text/css"/>
+ <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Josefin+Sans" rel="stylesheet">
     <style>
       /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
       @import url('https://fonts.googleapis.com/css?family=Pacifico');
@@ -43,7 +43,7 @@ body{
         
         
 .lasvegas {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Josefin Sans', sans-serif;
   font-size:80px;
   border: none;
   color: transparent;
@@ -51,7 +51,6 @@ body{
   text-shadow: 
     0 0 2px rgba(255,255,255,1), 
     0 0 3px rgba(255,255,255,1), 
-    0 0 5px rgba(255,255,255,1),  
     0 0 10px rgba(0,0,255,1), 
     0 0 20px rgba(0,0,255,1), 
     0 0 40px rgba(0,0,255,1),
@@ -59,7 +58,7 @@ body{
 }
 
 .lasvegas2 {
-  font-family: 'Pacifico', cursive;
+font-family: 'Indie Flower', cursive;
   font-size:80px;
   border: none;
   color: transparent;
@@ -189,12 +188,12 @@ Diwali Greetings | DhanTeras | Lakshmi
     <br/>
         
         <div style="position: relative; display: block; text-align:center;" id="div1">
-					<button type="submit" onclick="generate()" style="height: 100px; widht: 100%; background-color: #4CAF50; color: white; border-style: solid; border-width: 5px; border-radius: 10px; border-color: #2D6525; font-size:33px; font-weight:bold;" id="moneyBtn">ધન વર્ષા</button>
+					<button type="submit" onclick="generate()" style="height: 120px; widht: 100%; background-color: #4CAF50; color: white; border-style: solid; border-width: 5px; border-radius: 10px; border-color: #2D6525; font-size:50px; font-weight:bold;" id="moneyBtn">Money</button>
                 </div>
 
                                 
 				<div style="position: relative; text-align: center; width:100%; margin-top:1%" id="div3">
-                        <button type="submit" style="height: 100px; widht: 100%; background-color: #4CAF50; color: white; border-style: solid; border-width: 5px; border-radius: 10px; border-color: #2D6525; font-size:33px; font-weight:bold;">
+                        <button type="submit" style="height: 150px; widht: 100%; background-color: #4CAF50; color: white; border-style: solid; border-width: 5px; border-radius: 10px; border-color: #2D6525; font-size:60px; font-weight:bold;">
 				
 							<a id="mylink2" style="text-decoration: none; color: white;" href="whatsapp://send?text=નીચે આપેલી લિંક પર ક્લિક કરી મની બટન પર ક્લિક કરો અને જુઓ માતા લક્ષ્મી તમારા પર કેટલી ધન વર્ષા કરે છે. https://goo.gl/S77mrV">
 								<div><img src="src\images\whatsapp.png" style="float:left;" height="100%"></div>
@@ -215,14 +214,13 @@ function generate(){
     var res = otherNumbers.replace(/\B(?=(\d{2})+(?!\d))/g, ",") + lastThree;
     document.getElementById("money").innerHTML = "આ વર્ષે આપણા જીવનમા ₹"+res+" લક્ષ્મી વર્ષા થશે.";
     document.getElementById("moneyBtn").style.display = 'none';
-    
-    setTimeout(openUrl, 5000);
+    setTimeout(openUrl(res), 5000);
     
 }
     
-function openUrl(){
+function openUrl(mon){
     var str1 = "whatsapp://send?text=મારૂ ભવિષ્ય: ₹";
-    var lin = str1.concat(res,"\nનીચે આપેલી લિંક પર ક્લિક કરી મની બટન પર ક્લિક કરો અને જુઓ માતા લક્ષ્મી તમારા પર કેટલી ધન વર્ષા કરે છે. \nhttps://goo.gl/S77mrV");
+    var lin = str1.concat(mon,"\nનીચે આપેલી લિંક પર ક્લિક કરી મની બટન પર ક્લિક કરો અને જુઓ માતા લક્ષ્મી તમારા પર કેટલી ધન વર્ષા કરે છે. \nhttps://goo.gl/S77mrV");
     window.open(lin);
 }
 </script>
