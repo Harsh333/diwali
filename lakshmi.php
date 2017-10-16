@@ -221,7 +221,7 @@ function generate(){
 }
     
 function openUrl(){
-    window.location.href='whatsapp://send?text=Is diwali aaie jaane kya hai aapka bhvishya, aap ko kitani lakshmi prapt hogi! https://goo.gl/S77mrV';
+    window.open('whatsapp://send?text=નીચે આપેલી લિંક પર ક્લિક કરી મની બટન પર ક્લિક કરો અને જુઓ માતા લક્ષ્મી તમારા પર કેટલી ધન વર્ષા કરે છે. https://goo.gl/S77mrV');
 }
 </script>
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
