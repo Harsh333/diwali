@@ -133,60 +133,11 @@ Diwali Greetings
 </title>
         
 <body style="overflow: hidden">
-    
-<!--
-    Automatic Fireworks  
-    <canvas id="canvas" style="position: absolute ">Canvas is not supported in your browser.</canvas>
-    <script  src="js/index.js"></script>
--->
-    
-	<!--
-	<script type="text/javascript" language="javascript">
-      var aax_size='728x90';
-      var aax_pubname = 'hardipraj0f-21';
-      var aax_src='302';
-    </script>
-    <script type="text/javascript" language="javascript" src="http://c.amazon-adsystem.com/aax2/assoc.js"></script>
-	-->
-	<br/><br/><br/>
-	<div style="position:relative; widht:inherit;" align="center">
-                    <iframe width='728' height='90' frameborder='0' scrolling='no' src='https://widget.cuelinks.com/widgets/16321?pub_id=23455CL21105'></iframe>
-                </div>
-    <br/><br/>
-	
-    <!-- Automatic Fireworks Ends-->
-<!--    <table style="margin-top: auto; margin-bottom: auto; width:100%; height: 100%;">
-        <tr>
-            <td>
-                
-            </td>
-        </tr>
-        <tr>
-            <td>
--->
-    
+    <br/><br/><br/><br/><br/>
                 
                 <div class="lasvegas" id="message">
-                    
-<!--
-                    Wishing you a very<br>
-                    HAPPY DEEPAWALI<br>
-                     in advance from<br>
-                    <div class="lasvegas2" style="text-transform:uppercase;">
-
-                        <--?php if(isset($_GET['n']))            
-                            {        
-                                echo $_GET['n'];
-                            }
-                            else
-                            {
-                                echo "me";
-                            } ?>
-
-					 </div> 
--->
                 </div>
-    <script>
+                <script>
                 var msg = [
                     "Laxmi ka vardaan de aap ko khushia Ganesh kare khushia aprampaar kyoki dhanteras ka ye tyohaar.", 
                     "Phool khilen, kaliya khilen kaliyon se jooli bhar lena dhan teras ke subh avsir par zara hamko bhi yaad kar lena......!", 
@@ -214,7 +165,16 @@ Diwali Greetings
 		</td>
         </tr>
 -->
-
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- adunit3 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3940007982960442"
+     data-ad-slot="7935695658"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
     <br/><br/>
         
         <div style="position: relative; display: block; text-align:center;" id="div1">
@@ -232,11 +192,17 @@ Diwali Greetings
 						</button>
                 </div>
 <br/><br/><br/>
-            <div style="position:relative; widht:inherit;" align="center">
-                    <iframe width='728' height='90' frameborder='0' scrolling='no' src='https://widget.cuelinks.com/widgets/16323?pub_id=23455CL21105'></iframe>
-                </div>
     
-
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- adunit1 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3940007982960442"
+     data-ad-slot="1026846416"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <!--
     <div style="position:relative; widht:inherit;" align="center">
 	<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=tf_til&ad_type=product_link&tracking_id=hardipraj0f-21&marketplace=amazon&region=IN&placement=B01MZYMMYI&asins=B01MZYMMYI&linkId=b248b94ae146a9e334952e4e77585664&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
@@ -260,29 +226,5 @@ Diwali Greetings
 -->
     
     
-    
-    <!--Touch fireworks-->
-    
-<!--
-    <script src="https://code.jquery.com/jquery-2.1.0.min.js"></script>
-    <script src="fireworks.js"></script>
--->
-
-    <!--Touch fireworks Ends-->
-      
-<!-- CUELINKS Script -->
-    
-    <script type='text/javascript'>
-    var pubID = '23455CL21105';
-
-    (function(d, t) {
-    var s = document.createElement('script');s.type = 'text/javascript';
-    s.async = true;s.src = (document.location.protocol == 'https:' ? 'https://cdn0.cuelinks.com/js/' : 'http://cdn0.cuelinks.com/js/')  + 'cuelinksv1.js';
-    document.getElementsByTagName('body')[0].appendChild(s);
-    }());
-</script>
-
-<!-- CUELINKS Script Ends-->
-
 </body>
 </html>
