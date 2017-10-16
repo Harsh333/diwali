@@ -130,7 +130,7 @@ body{
 </head>
 
 <title>
-Diwali Greetings
+Diwali Greetings | DhanTeras | Lakshmi
 </title>
         
 <body style="overflow: hidden">
