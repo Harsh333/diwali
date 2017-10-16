@@ -142,7 +142,7 @@ Diwali Greetings | DhanTeras | Lakshmi
         
 <body style="overflow: hidden">
         <script src="/js/short.js"> </script>
-    <br/><br/><br/><br/><br/>
+    <br/><br/>
                 
                 <div class="lasvegas" id="message">
                 </div>
@@ -186,10 +186,10 @@ Diwali Greetings | DhanTeras | Lakshmi
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-    <br/><br/>
+    <br/>
         
         <div style="position: relative; display: block; text-align:center;" id="div1">
-					<button type="submit" onclick="generate()" style="height: 100px; widht: 100%; background-color: #4CAF50; color: white; border-style: solid; border-width: 5px; border-radius: 10px; border-color: #2D6525; font-size:33px; font-weight:bold;" id="moneyBtn">Money</button>
+					<button type="submit" onclick="generate()" style="height: 100px; widht: 100%; background-color: #4CAF50; color: white; border-style: solid; border-width: 5px; border-radius: 10px; border-color: #2D6525; font-size:33px; font-weight:bold;" id="moneyBtn">ધન વર્ષા</button>
                 </div>
 
                                 
@@ -202,7 +202,7 @@ Diwali Greetings | DhanTeras | Lakshmi
 							</a>
 						</button>
                 </div>
-<br/><br/><br/>
+<br/>
     
 <script>
 function generate(){
@@ -221,7 +221,9 @@ function generate(){
 }
     
 function openUrl(){
-    window.open('whatsapp://send?text=મારૂ ભવિષ્ય: ₹'+res+'<br/>નીચે આપેલી લિંક પર ક્લિક કરી મની બટન પર ક્લિક કરો અને જુઓ માતા લક્ષ્મી તમારા પર કેટલી ધન વર્ષા કરે છે.<br/> https://goo.gl/S77mrV');
+    var str1 = "whatsapp://send?text=મારૂ ભવિષ્ય: ₹";
+    var lin = str1.concat(res,"\nનીચે આપેલી લિંક પર ક્લિક કરી મની બટન પર ક્લિક કરો અને જુઓ માતા લક્ષ્મી તમારા પર કેટલી ધન વર્ષા કરે છે. \nhttps://goo.gl/S77mrV");
+    window.open(lin);
 }
 </script>
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
