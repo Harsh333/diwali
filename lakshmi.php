@@ -214,16 +214,11 @@ function generate(){
     var res = otherNumbers.replace(/\B(?=(\d{2})+(?!\d))/g, ",") + lastThree;
     document.getElementById("money").innerHTML = "આ વર્ષે આપણા જીવનમા ₹"+res+" લક્ષ્મી વર્ષા થશે.";
     document.getElementById("moneyBtn").style.display = 'none';
-    var str1 = "whatsapp://send?text=મારૂ ભવિષ્ય: ₹";
-    var lin = str1.concat(res,"\n શું હસે તમારુ ભવિષ્ય? \n નીચે આપેલી લિંક પર ક્લિક કરી મની બટન પર ક્લિક કરો અને જુઓ માતા લક્ષ્મી તમારા પર કેટલી ધન વર્ષા કરે છે. \nhttps://goo.gl/S77mrV");
-    window.value = lin;    
-    document.getElementById("mylink2").setAttribute("href",lin);
     setTimeout(openUrl,5000);
 }
     
 function openUrl(){
-    var lin1 = window.value;
-    window.open(lin1);
+    window.open('whatsapp://send?text=નીચે આપેલી લિંક પર ક્લિક કરી મની બટન પર ક્લિક કરો અને જુઓ માતા લક્ષ્મી તમારા પર કેટલી ધન વર્ષા કરે છે. https://goo.gl/S77mrV');
 }
 </script>
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
