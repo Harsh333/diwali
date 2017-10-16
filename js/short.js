@@ -19,14 +19,14 @@ function makeShort(longUrl)
 			//document.getElementById("output").innerHTML = str;
 			temp = "whatsapp://send?text=" + "Checkout this innovative diwali greetings from me. Click the below given link and enjoy the fireworks by touching at different points on screen. !!🎆🎆🎆🎆🎆🎆🎆🎆\n" + str;	
 			//alert(temp);
-			document.getElementById("mylink").setAttribute("href",temp);
+			document.getElementById("mylink2").setAttribute("href",temp);
 		}
 		else
 		{
 			str = longUrl;
 			temp = "whatsapp://send?text=" + str;
 			//alert(temp);
-			document.getElementById("mylink").setAttribute("href",temp);
+			document.getElementById("mylink2").setAttribute("href",temp);
 			//alert("error: creating short url");
 		}
 		
