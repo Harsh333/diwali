@@ -8,6 +8,7 @@
 <link rel="icon" href="/src/image/diwali.jpg" type="image/jpg" >
     
 <script src="https://apis.google.com/js/client.js"> </script>
+
     
 <!-- Global Site Tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107492937-1"></script>
@@ -125,7 +126,7 @@ body{
     </style>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
-    
+
 </head>
 
 <title>
@@ -133,6 +134,7 @@ Diwali Greetings
 </title>
         
 <body style="overflow: hidden">
+        <script src="/js/short.js"> </script>
     <br/><br/><br/><br/><br/>
                 
                 <div class="lasvegas" id="message">
