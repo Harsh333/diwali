@@ -205,7 +205,7 @@ Diwali Greetings | DhanTeras | Lakshmi
     
 <script>
 function generate(){
-    var x=Math.floor((Math.random() * 10000000) + 1);
+    var x=Math.floor((Math.random() * 1000000) + 1);
     x=x.toString();
     var lastThree = x.substring(x.length-3);
     var otherNumbers = x.substring(0,x.length-3);
