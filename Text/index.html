@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome to Las Vegas</title>
+  
+  
+  
+      <style>
+      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+      @import url('https://fonts.googleapis.com/css?family=Pacifico'
+);
+
+body{background:#000;}
+
+.lasvegas {
+  font-family: 'Pacifico', cursive;
+  font-size:80px;
+  border: none;
+  color: transparent;
+  text-align: center;
+  text-shadow: 
+    0 0 2px rgba(255,255,255,1), 
+    0 0 10px rgba(255,255,255,1), 
+    0 0 20px rgba(255,255,255,1), 
+    0 0 30px rgba(255,255,255,1), 
+    0 0 40px #ff00de, 
+    0 0 70px #ff00de, 
+    0 0 80px #ff00de,
+    0 0 100px #ff00de;
+}
+
+
+.lasvegas span{
+  animation: blink .3s infinite alternate;
+}
+
+.lasvegas span.delay{
+  animation-duration:6s;
+  animation-delay: 2s;
+  animation-direction: alternate;
+  cubic-bezier(0.5, 0.2, 0.3, 1.0)
+}
+
+
+@keyframes blink {
+  0%   {}
+  50%  {}
+  60%{
+    text-shadow: 
+      0 0 2px rgba(255, 255, 255, .1), 
+      0 0 10px rgba(255, 255, 255, .4);
+    
+    text-stroke: 2px rgba(255,255,255,0.05);
+  }
+  70%{
+    text-shadow: 
+      0 0 2px rgba(255,255,255,1), 
+      0 0 10px rgba(255,255,255,1), 
+      0 0 20px rgba(255,255,255,1), 
+      0 0 30px rgba(255,255,255,1), 
+      0 0 40px #ff00de, 
+      0 0 70px #ff00de, 
+      0 0 80px #ff00de,
+      0 0 100px #ff00de;
+  }
+  80%{
+    text-shadow: 
+      0 0 2px rgba(255, 255, 255, .1), 
+      0 0 10px rgba(255, 255, 255, .4);
+    
+    text-stroke: 2px rgba(255,255,255,0.05);
+  }
+  100% { 
+    text-shadow: 
+      0 0 2px rgba(255,255,255,1), 
+      0 0 10px rgba(255,255,255,1), 
+      0 0 20px rgba(255,255,255,1), 
+      0 0 30px rgba(255,255,255,1), 
+      0 0 40px #ff00de, 
+      0 0 70px #ff00de, 
+      0 0 80px #ff00de,
+      0 0 100px #ff00de;
+  }
+}
+    </style>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+
+<body>
+  <div class="lasvegas">
+  Welco<span>m</span>e<br>
+  to<br>
+  Las <span class="delay">V</span>egas
+</div>
+  
+  
+</body>
+</html>
